@@ -3,8 +3,9 @@ import Navbar from "@/components/Navbar";
 // import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "ATHLO",
-  description: "ATHLO",
+  title: "Athlo - Your Needs, Our Sport",
+  description:
+    "Discover the best sports gear for athletes of all levels. Shop now!",
 };
 
 export default function RootLayout({ children }) {
