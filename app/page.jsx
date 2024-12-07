@@ -1,15 +1,11 @@
-// import Hero from "@/components/Hero";
-// import Categories from "@/components/Categories";
-// import ProductGrid from "@/components/ProductGrid";
-// import FeaturedSection from "@/components/FeaturedSection";
+import Hero from "@/components/Hero";
 
-export default function Home() {
+function page() {
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* <Hero />
-      <Categories />
-      <ProductGrid />
-      <FeaturedSection /> */}
+    <div>
+      <Hero />
     </div>
   );
 }
+
+export default page;
