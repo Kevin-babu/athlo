@@ -92,12 +92,12 @@ export default function Hero() {
         </div> */}
 
         {/* Scroll Indicator */}
-        {/* <button
+        <button
           onClick={scrollToProducts}
           className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce  animate-fade-in"
         >
           <ChevronDown className="w-8 h-8" />
-        </button> */}
+        </button>
       </div>
     </div>
   );
