@@ -64,7 +64,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/products"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Shop All
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/categories"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Categories
@@ -80,7 +80,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/about"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     About Us
@@ -88,7 +88,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Contact
@@ -105,7 +105,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/shipping"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Shipping Info
@@ -113,7 +113,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/returns"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Returns
@@ -121,7 +121,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/faq"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     FAQ
@@ -129,7 +129,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/size-guide"
+                    href="/maintanence"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Size Guide
@@ -180,13 +180,13 @@ const Footer = () => {
             </p>
             <div className="flex gap-6">
               <Link
-                href="/privacy"
+                href="/"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
-                href="/terms"
+                href="/"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Terms of Service
