@@ -21,9 +21,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "/maintanence", label: "Shop" },
-    { href: "/maintanence", label: "Categories" },
-    { href: "/maintanence", label: "New Arrivals" },
+    { href: "/maintanence", label: "New & Featured" },
+    { href: "/maintanence", label: "Men" },
+    { href: "/maintanence", label: "Women" },
+    { href: "/maintanence", label: "Kids" },
     { href: "/maintanence", label: "Sale" },
   ];
 
