@@ -1,6 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Athlo - Your Needs, Our Sport",
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
