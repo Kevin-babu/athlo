@@ -4,7 +4,9 @@ import Link from "next/link";
 import { Facebook, Instagram, Twitter, Youtube, Mail } from "lucide-react";
 import { useState } from "react";
 
-export default function Footer() {
+import React from "react";
+
+const Footer = () => {
   const [email, setEmail] = useState("");
 
   const handleSubscribe = (e) => {
@@ -21,7 +23,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
             {/* Company Info */}
             <div>
-              <h4 className="text-lg font-bold mb-4">SPORTIFY</h4>
+              <h4 className="text-lg font-bold mb-4">ATHLO</h4>
               <p className="text-gray-400 text-sm mb-6">
                 Premium sports gear for athletes who demand excellence. Quality,
                 innovation, and performance in every product.
@@ -195,4 +197,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
