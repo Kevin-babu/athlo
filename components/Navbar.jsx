@@ -21,20 +21,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "/shop", label: "Shop" },
-    { href: "/categories", label: "Categories" },
-    { href: "/new-arrivals", label: "New Arrivals" },
-    { href: "/sale", label: "Sale" },
+    { href: "/maintanence", label: "Shop" },
+    { href: "/maintanence", label: "Categories" },
+    { href: "/maintanence", label: "New Arrivals" },
+    { href: "/maintanence", label: "Sale" },
   ];
-
-  const handleLinkClick = (event, href) => {
-    event.preventDefault(); // Prevent default link behavior
-    if (href !== "/") {
-      router.push("/maintanence"); // Redirect to the maintenance page
-    } else {
-      router.push(href); // Navigate to the home page
-    }
-  };
 
   return (
     <header
@@ -58,9 +49,8 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
-                key={link.href}
+                key={link.label}
                 href={link.href}
-                onClick={(e) => handleLinkClick(e, link.href)}
                 className={`text-sm font-medium hover:opacity-70 transition-opacity ${
                   isScrolled ? "text-black" : "text-white"
                 } ${pathname === link.href ? "opacity-100" : "opacity-80"}`}
@@ -121,9 +111,8 @@ export default function Navbar() {
           <div className="flex flex-col space-y-6">
             {navLinks.map((link) => (
               <a
-                key={link.href}
+                key={link.label}
                 href={link.href}
-                onClick={(e) => handleLinkClick(e, link.href)}
                 className={`text-black text-base font-medium hover:opacity-70 transition-opacity ${
                   pathname === link.href ? "opacity-100" : "opacity-80"
                 }`}
