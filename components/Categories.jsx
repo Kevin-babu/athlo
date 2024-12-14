@@ -61,7 +61,7 @@ const Categories = () => {
                 key={category.id}
                 className="min-w-[280px] md:min-w-[400px] flex-[0_0_80%] md:flex-[0_0_40%] lg:flex-[0_0_25%] pl-4"
               >
-                <Link href="/maintanence">
+                <Link href="/Football">
                   <div className="group relative aspect-[4/5] overflow-hidden bg-gray-900 rounded-lg">
                     <Image
                       src={category.image}
