@@ -64,7 +64,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Shop All
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Categories
@@ -80,7 +80,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     About Us
@@ -88,7 +88,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Contact
@@ -105,7 +105,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Shipping Info
@@ -113,7 +113,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Returns
@@ -121,7 +121,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     FAQ
@@ -129,7 +129,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Size Guide

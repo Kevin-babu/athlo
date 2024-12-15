@@ -48,7 +48,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mb-16  animate-fade-in-up">
           <Link
-            href="/shop"
+            href="/"
             className="group bg-white text-black px-8 py-4 flex items-center justify-center gap-2 hover:bg-gray-100 transition-colors"
           >
             Shop Now

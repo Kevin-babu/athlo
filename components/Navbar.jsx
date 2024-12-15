@@ -21,11 +21,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "/maintanence", label: "New & Featured" },
-    { href: "/maintanence", label: "Men" },
-    { href: "/maintanence", label: "Women" },
-    { href: "/maintanence", label: "Kids" },
-    { href: "/maintanence", label: "Sale" },
+    { href: "/", label: "New & Featured" },
+    { href: "/", label: "Men" },
+    { href: "/", label: "Women" },
+    { href: "/", label: "Kids" },
+    { href: "/", label: "Sale" },
   ];
 
   return (
