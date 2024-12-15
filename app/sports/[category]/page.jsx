@@ -3,8 +3,8 @@ import ProductCard from "@/components/ProductCard";
 import PageHeading from "@/components/PageHeading";
 import Button from "@/components/Button";
 
-const page = ({ params }) => {
-  const { category } = params;
+const page = async ({ params }) => {
+  const { category } = await params;
   const categoryData = sportsData[category];
 
   if (!categoryData) {
