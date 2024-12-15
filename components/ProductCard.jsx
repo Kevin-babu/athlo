@@ -5,7 +5,8 @@ import Link from "next/link";
 const ProductCard = ({ id, image, price, name, description }) => {
   return (
     <div className="w-full max-w-[300px] mx-auto">
-      <Link key={id} href={`/products/${id}`} className="group block">
+      {/* <Link key={id} href={`/products/${id}`} className="group block"> */}
+      <Link key={id} href={`/`} className="group block">
         <div className="relative">
           {/* Product Image */}
           <div className="relative overflow-hidden bg-gray-100 rounded-lg w-full h-64 sm:h-72 lg:h-80">
@@ -22,13 +23,13 @@ const ProductCard = ({ id, image, price, name, description }) => {
           </div>
 
           {/* Quick Add Button */}
-          <button
+          {/* <button
             className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm text-black py-2 sm:py-3 
                            opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 
                            transition-all duration-300 font-medium hover:bg-white"
           >
             Quick Add
-          </button>
+          </button> */}
         </div>
 
         {/* Product Info */}
