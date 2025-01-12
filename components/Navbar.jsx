@@ -49,7 +49,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 className={`text-sm font-medium hover:opacity-70 transition-opacity ${
@@ -57,7 +57,7 @@ export default function Navbar() {
                 } ${pathname === link.href ? "opacity-100" : "opacity-80"}`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
