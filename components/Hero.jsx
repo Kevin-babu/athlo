@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-[2000px] mx-auto px-4 lg:px-8 flex flex-col items-center text-center">
         {/* Main Heading with Animation */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tighter">
-          <span className="block  animate-fade-in-up">ELEVATE YOUR</span>
+          <span className="block  animate-fade-in-up">BOOST YOUR</span>
           <span className="block text-gradient  animate-fade-in-up">
             PERFORMANCE
           </span>
